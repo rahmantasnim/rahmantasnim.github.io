@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Tasnim Rahman
+tagline:             Personal Website In Progress
+url:                 https://rahmantasnim.github.io
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Tasnim Rahman
+  url:               https://rahmantasnim.github.io
+  email:             rahmant@uchicago.edu
+
+# Custom vars
+# version:             0.0.0
+github:
+  repo:              https://github.com/rahmantasnim/rahmantasnim.github.io
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
