@@ -15,11 +15,17 @@
 
   a {
     color: inherit;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 400;
   }
 
   small {
+    font-family: "Josefin Sans";
     font-size: 75%;
     font-weight: 400;
     opacity: .5;
+    letter-spacing: 0.1em;
+
   }
 }
