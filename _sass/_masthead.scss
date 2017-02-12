@@ -5,7 +5,7 @@
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .masthead-title {
@@ -14,15 +14,17 @@
   color: $gray-4;
 
   a {
+    font-family: $paragraph-font-family;
     color: inherit;
-    font-size: 36px;
-    text-transform: capitalize;
-    font-weight: 400;
+    font-size: $header-font-size;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
   }
 
   small {
-    font-family: "Josefin Sans";
-    font-size: 75%;
+    font-family: $header-font-family;
+    font-size: $header-font-size;
     font-weight: 400;
     opacity: .5;
     letter-spacing: 0.1em;
