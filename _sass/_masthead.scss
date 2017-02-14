@@ -28,6 +28,14 @@
     font-weight: 400;
     opacity: .5;
     letter-spacing: 0.1em;
+  }
 
+  .pipe {
+    color: $periwinkle;
+    font-family: $paragraph-font-family;
+    font-size: $header-font-size;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: $header-font-size;
   }
 }
